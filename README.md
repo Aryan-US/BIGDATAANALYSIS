@@ -15,4 +15,10 @@ Through this pipeline, I solved several critical business challenges. I identifi
 The real-world applicability of this project lies in its horizontal scalability. While the current demonstration processes half a million records, the underlying architecture is designed to be "cluster-ready." This means the exact same code could be deployed on a distributed cloud cluster (such as AWS EMR or Azure Databricks) to process billions of rows without modification. This makes the project a viable blueprint for large-scale retail platforms, such as Amazon or eBay, where data arrives at a velocity and volume that traditional databases cannot support. By bridging the gap between raw data and executive-level insights, this project showcases a complete end-to-end solution for modern, data-driven decision-making.
 
 #OUTPUT
+
 <img width="753" height="511" alt="Image" src="https://github.com/user-attachments/assets/612fbea1-e368-4716-b47f-4e1dd6cb24b8" />
+
+
+<img width="725" height="370" alt="Image" src="https://github.com/user-attachments/assets/0e553b95-fee3-4995-b5e8-9c0301b652ac" />
+
+
