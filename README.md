@@ -21,4 +21,8 @@ The real-world applicability of this project lies in its horizontal scalability.
 
 <img width="725" height="370" alt="Image" src="https://github.com/user-attachments/assets/0e553b95-fee3-4995-b5e8-9c0301b652ac" />
 
+<img width="566" height="405" alt="Image" src="https://github.com/user-attachments/assets/0f764aae-f10e-4f8d-8590-0b79839426bd" />
+
+<img width="646" height="354" alt="Image" src="https://github.com/user-attachments/assets/c1556ad0-90db-4d56-a212-ce3de10efb66" />
+
 
