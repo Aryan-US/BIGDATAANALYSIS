@@ -1,1 +1,15 @@
-# BIGDATAANALYSIS
+# BIG-DATA-ANALYSIS
+*COMPANY*: CODTECH IT SOLUTIONS
+*NAME*: ARYAN U S
+*INTERN ID*: CTIS2401
+*DOMAIN*: DATA ANALYSIS
+*DURATION*: 6 WEEKS
+*MENTOR*: NEELA SANTHOSH
+
+##The primary objective of this project was to architect and execute a scalable data pipeline designed to process and analyze a high-volume global e-commerce dataset containing over 500,000 transaction records. Unlike traditional data analysis that relies on local memory and single-threaded processing, this project focused on the principles of distributed computing. By leveraging the Apache Spark (PySpark) engine within a Google Colab cloud environment, I demonstrated the ability to handle large-scale data ingestion and transformation. The workflow involved programmatically fetching data from a remote cloud repository, implementing a robust data-cleaning layer to eliminate "noise" such as cancellations and anomalous pricing, and performing complex aggregations that would typically overwhelm standard analytical tools.
+
+Technologically, the project utilized PySpark's SQL and DataFrame APIs to perform "Lazy Evaluation," an optimization technique where the engine builds a logical execution plan before touching the data, ensuring maximum efficiency. I used Python’s Requests library for automated ingestion and PyArrow for high-speed columnar data processing. These tools allowed for the conversion of raw, unstructured timestamps into actionable time-series data and the merging of disparate data points into a unified financial model. This technical stack represents the industry standard for modern Data Engineering, moving beyond simple scripting into the realm of enterprise-grade big data infrastructure.
+
+Through this pipeline, I solved several critical business challenges. I identified that while the United Kingdom was the highest volume market, countries like the Netherlands exhibited a much higher Average Order Value (AOV), indicating a high-value bulk-buying behavior. I also conducted a temporal analysis that pinpointed 12:00 PM (Noon) as the absolute peak for global transactions, providing a data-driven blueprint for server resource allocation and customer support scheduling. Furthermore, by calculating revenue at the product level and tracking weekly sales cycles, I provided insights into inventory optimization and "Cash Cow" product identification, proving that the pipeline can translate raw logs into strategic business intelligence.
+
+The real-world applicability of this project lies in its horizontal scalability. While the current demonstration processes half a million records, the underlying architecture is designed to be "cluster-ready." This means the exact same code could be deployed on a distributed cloud cluster (such as AWS EMR or Azure Databricks) to process billions of rows without modification. This makes the project a viable blueprint for large-scale retail platforms, such as Amazon or eBay, where data arrives at a velocity and volume that traditional databases cannot support. By bridging the gap between raw data and executive-level insights, this project showcases a complete end-to-end solution for modern, data-driven decision-making.
